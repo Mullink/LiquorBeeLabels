@@ -1,7 +1,18 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
 
-/.vs/LiquorBeeLabels/FileContentIndex/e8c7df69-d506-4293-917d-768d7539a0e6.vsidx
-/.vs/LiquorBeeLabels/FileContentIndex/ae0c8196-8e48-4847-8400-c34d1893c8d0.vsidx
-/.vs/LiquorBeeLabels/FileContentIndex/e7740a43-3f3d-4bff-b779-1b1a54050c0a.vsidx
+# Build output
+bin/
+obj/
+
+# Android / Gradle
+.gradle/
+build/
+local.properties
+
+# OS junk
+.DS_Store
+Thumbs.db
+/.vs/slnx.sqlite
